@@ -1,5 +1,4 @@
-module github.com/Hvaekar/some-project
-
+module github.com/Hvaekar/login
 go 1.19
 
 require (
