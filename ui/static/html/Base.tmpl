@@ -1,0 +1,19 @@
+{{ define "Base" }}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Login System in Go and MySQL</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <h1>Login</h1>
+    <form name="login" action="/login" method="POST">
+        <label>Username &nbsp;&nbsp;<input type="text" name="username"/></label>
+        <label>Password &nbsp;&nbsp;<input type="password" name="password"/></label>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+{{ end }}
