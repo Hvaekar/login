@@ -2,10 +2,10 @@ package main
 
 import "net/http"
 
-func routes() *http.ServeMux {
+func (app *app) routes() *http.ServeMux {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", home)
-	mux.HandleFunc("/login", login)
+	mux.HandleFunc("/login", app.login)
 
 	return mux
 }
