@@ -1,4 +1,4 @@
-module xander.com.ua/some-project
+module https://github.com/Hvaekar/some-project
 
 go 1.19
 
