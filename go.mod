@@ -1,4 +1,4 @@
-module https://github.com/Hvaekar/some-project
+module github.com/Hvaekar/some-project
 
 go 1.19
 
